@@ -3,13 +3,7 @@ import './App.css';
 import Grid from '@material-ui/core/Grid';
 import Welcome_Button from './Components/Welcome_Button';
 
-function makeList(){
-  return(
-    <div >
-      {alert('hello world')}
-    </div>
-  );
-}
+
 
 
 
@@ -18,9 +12,8 @@ function App() {
     <div className="App">
        <Grid container spacing={0}>
           <Grid item xs={12}>
-            <div style = {{backgroundColor :'#ffe066' ,height: '75vh'}}>
+            <div style = {{backgroundColor :'#85e085' ,height: '75vh'}}>
               <Welcome_Button/>
-
             </div>
           </Grid>
         </Grid>

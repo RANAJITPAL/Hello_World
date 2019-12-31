@@ -15,7 +15,7 @@ function hello(){
 function Welcome_Button(){
     return(
         <div>
-            <Button variant="contained" color="#ff8080y" disableElevation onclick ={()=>hello()}>Welcome</Button>
+            <Button variant="contained" color="#1a1aff" disableElevation onclick ={()=>hello()}>Welcome</Button>
         </div>
     );
 }
