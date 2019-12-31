@@ -18,10 +18,7 @@ function App() {
     <div className="App">
        <Grid container spacing={0}>
           <Grid item xs={12}>
-            <div style = {{backgroundColor :'#ffe066' ,height: '75vh'}}>
-              <Welcome_Button/>
-
-            </div>
+            <div style = {{backgroundColor :'#ffe066' ,height: '75vh'}}> red</div>
           </Grid>
         </Grid>
     </div>
